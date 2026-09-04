@@ -1,0 +1,17 @@
+:root {
+    --primario: #8B5E3C;
+    --primario-oscuro: #4E342E;
+    --secundario: #C8956C;
+    --acento: #D6A756;
+
+    --oscuro: #211A17;
+    --blanco: #FFFFFF;
+    --fondo: #F7F2EC;
+    --fondo-secundario: #EDE2D5;
+
+    --texto: #2F2926;
+    --texto-secundario: #6F625B;
+
+    --fuente-titulos: 'Playfair Display', serif;
+    --fuente-texto: 'Lato', sans-serif;
+}
