@@ -12,6 +12,53 @@
     --texto: #2F2926;
     --texto-secundario: #6F625B;
 
-    --fuente-titulos: 'Playfair Display', serif;
-    --fuente-texto: 'Lato', sans-serif;
+    --font-heading: 'Playfair Display', serif;
+    --font-text: 'Lato', sans-serif;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *::before, *:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: var(--font-text);
+    font-size: 1.6rem;
+    line-height: 2;
+}
+.container{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4{
+    font-family: var(--font-heading);
+}
+h1{
+    font-size: 4.8rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3.2;
+}
+h4{
+    font-size: 2.8;
+}
+img{
+    max-width: 100%;
+}
+.no-margin{
+    margin: 0;
+}
+.no-padding{
+    padding: 0;
+}
+.center-text{
+    text-align: center;
 }
